@@ -1,0 +1,151 @@
+header{
+    background-color:rgb(242,242,242);
+    height: 800px;
+    width: 1800px;
+    margin-left: 100px;
+    
+   
+}
+
+
+    
+    
+    section{
+    width: 200px;
+    height: 600px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 600px;
+    margin: 150px;
+    position: relative;
+    top: 100px;
+    left: 200px;
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3{
+    width: 250px;
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section img{
+    height: 100px;
+    width: 100px;
+}
+#one{
+    margin: 50px;
+    color: rgb(255,240,221);
+}
+#ones{
+    background-color: rgb(226,133,37);
+    width:350px ;
+    height: 600px;
+    border-radius: 10px;
+}
+#two{
+    margin: 50px;
+    color: rgb(255,240,221);
+}
+#twos{
+    background-color: rgb(1,105,114);
+    width:350px ;
+    height: 600px;
+    position: relative;
+    right: 30px;
+    border-radius: 10px;
+}
+#three{
+    margin: 50px;
+    color: rgb(255,240,221);
+
+}
+#threes{
+    background-color: rgb(0,64,63);
+    width:350px ;
+    height: 600px;
+    position: relative;
+    right: 35px;
+    border-radius: 10px;
+}
+
+#ones button{
+     color: rgb(255,240,221);
+    
+    background-color:rgb(226,133,37); 
+    border-radius: 40px;
+
+
+}
+#twos button{
+    color: rgb(255,240,221);
+   
+   background-color:rgb(1,105,114); 
+   border-radius: 40px;
+
+
+}
+#twos button a{
+    font-size: 20px;
+    
+    color: rgb(255,240,221);
+    text-decoration: none;
+}
+#threes button{
+    color: rgb(255,240,221);
+   
+   background-color:rgb(0,64,63); 
+   border-radius: 40px;
+
+
+}
+#threes  button a{
+    font-size: 20px;
+     
+    color: rgb(255,240,221);
+    text-decoration: none;
+}
+ 
+
+#ones button a{
+    font-size: 20px;
+    background-color:rgb(226,133,37); 
+    color: rgb(255,240,221);
+    text-decoration: none;
+}
+@media (max-width:500px){
+    section{
+      flex-direction: column;
+      position: relative;
+      top: 40px;
+      left: 30px;
+       
+      
+      
+       
+        
+    
+    }
+
+
+}
+
+@media(max-width:500px){
+    header{
+        flex-direction: column;
+        width: 600px;
+        height: 1900px;
+        position: relative;
+        left: 500px;
+
+    }
+}
+@media(max-width:500px){
+    #ones{
+        position: relative;
+        right: 30px;
+    }
+}
